@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reveal {
+    /* I just put height at 400% and something cool happened */
+    height: 400px;  
+    width:  400px; 
+    border-radius: 100%;
+    color: white;
+    font-size: 2em;
+    background-color: pink;
+    animation: color 3s ease-in-out 0s infinite
+}
+
+.reveal:active {
+    height: 350px;
+    width: 350px;
+}
+
+@keyframes color {
+    0% {background-color: aqua;}
+    25% {background-color: pink;}
+    50% {background-color: aqua;}
+    75% {background-color: pink;}
+    100% {background-color: aqua;}
+}
