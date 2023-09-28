@@ -9,7 +9,7 @@ revealBtn.addEventListener("click", () => {
     let msgStyle = msg.style;
     console.log(msg);
     msg.textContent = "Its a Girl!!";
-    msgStyle.fontSize = "10em"
+    msgStyle.fontSize = "5vw";
     msgStyle.color = "white";
     
     
